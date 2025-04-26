@@ -212,7 +212,7 @@ export default function TaskTable() {
      {/* Mobile View */}
       <div className="md:hidden space-y-4">
       {getProcessedTasks().length > 0 ? (
-        getProcessedTasks().map((task, idx) => (
+        getProcessedTasks().map((task) => (
             <div key={task.id} className="border rounded-lg p-4">
               {/* Basic Info */}
               <div className="flex justify-between items-start">
